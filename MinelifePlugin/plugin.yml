@@ -1,0 +1,40 @@
+name: Minelife
+main: me.rik_mclightning1.Minelife
+version: 1.0
+commands:
+   test:
+      description: Returns a message, showing the plugin is working
+      usage: /test
+   town:
+      description: Town commands
+      usage: /town <add;remove;rename;transfer> <username;name> <rank>
+   claim:
+      description: Turn claiming mode on and off
+      usage: /claim <on;off;toggle;remove;share>
+   plot:
+      description: Plot commands
+      usage: /plot <remove;share>
+   admintown:
+      description: Create an Admin Town
+      usage: /admintown <radius>
+   minelife:
+      description: Help with the MineLife plugin
+      usage: /minelife
+   t:
+      description: Returns a message, showing the plugin is working
+      usage: /t
+   dungeon:
+      description: Manages dungeon claims
+      usage: /dungeon [claim;add;remove]
+   setradius:
+      description: Sets the radius of an admintown
+      usage: /setradius [radius]
+   mute:
+      description: Mutes a player
+      usage: /mute [player] [time in minutes]
+   unmute:
+      description: Unmutes a player
+      usage: /unmute [player]
+   bal:
+      description: Returns your balance
+      usage: /bal
